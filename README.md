@@ -1,9 +1,9 @@
 # daniels-week2-homework-responsive-portfolio
 
-This is a bootstrap responsive portfolio that meets the following requirements:
+#This is a bootstrap responsive portfolio that meets the following requirements:
 
-Functional, deployed application
-GitHub repository with README describing the project
+#Functional, deployed application
+#GitHub repository with README describing the project
 Navbar must be consistent on each page.
 Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
 All links must work.
