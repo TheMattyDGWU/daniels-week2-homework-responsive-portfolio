@@ -4,7 +4,6 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -16,12 +15,29 @@
         crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: red;
+            color: white;
+            text-align: center;
+        }
+
+        .logo {
+            width: 3vw;
+            height: 6vh;
+        }
+    </style>
     <title>MD's Profile</title>
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-lg navbar-right navbar-dark bg-dark" style="background-color: #000080;">
+    <!-- --------------- NAVBAR --------------- -->
+    <nav class="navbar navbar-expand-lg navbar-right navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">
             <h1>Matthew Daniels</h1>
         </a>
@@ -64,6 +80,19 @@
         </li>
 
     </nav>
+
+    <!-- --------------- CONTAINER --------------- -->
+    <div class="container-sm">100% wide until small breakpoint</div>
+    <div class="container-md">100% wide until medium breakpoint</div>
+    <div class="container-lg">100% wide until large breakpoint</div>
+    <div class="container-xl">100% wide until extra large breakpoint</div>
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer class="footer">
+        
+        <img class="logo" src="img/ranchoLogo.png" style="text-align: center"> Copyright &copy;
+            <script>document.write(new Date().getFullYear())</script> Rancho Relaxo Productions</p>
+    </footer>
 </body>
 
 </html>
