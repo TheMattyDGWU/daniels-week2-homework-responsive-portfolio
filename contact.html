@@ -36,7 +36,7 @@
 </head>
 
 <body>
-    <!-- --------------- NAVBAR --------------- -->
+    <!-- _________________________________ NAVBAR _________________________________ -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">
@@ -56,7 +56,7 @@
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="contact.html">Contact
+                        <a type="button" class="btn btn-danger">Contact</button>
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
@@ -65,8 +65,12 @@
         </div>
     </nav>
 
-    <!-- --------------- CONTAINER --------------- -->
-    <div class="container">
+    <!-- _________________________________ CONTAINER _________________________________ -->
+    <div class="container-fluid">
+
+        <!-- Portfolio Heading -->
+        <h2 class="my-4">Contact Me...</h2>
+
         <form id="contact-form" method="post" action="contact.php" role="form">
 
             <div class="messages"></div>
@@ -144,12 +148,13 @@
             </div>
 
         </form>
-    </div> // END of container
+    </div>
 
-    <!-- --------------- FOOTER --------------- -->
+    <!-- _________________________________ FOOTER _________________________________ -->
     <footer class="footer">
-        <img class="logo" src="img/ranchoLogo.png" style="text-align: center"> Copyright &copy;
-        <script>document.write(new Date().getFullYear())</script> Rancho Relaxo Productions</p>
+        <div class="container" style="text-align: center"> Copyright &copy;
+            <script>document.write(new Date().getFullYear())</script> Rancho Relaxo Productions</p>
+        </div>
     </footer>
 
 </body>
