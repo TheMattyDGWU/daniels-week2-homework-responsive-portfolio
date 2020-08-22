@@ -2,6 +2,20 @@
             margin-bottom: 50px;
         }
 
+        .fa {
+            padding: 10px;
+            font-size: 30px;
+            width: 40px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+        }
+
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+
         .footer {
             position: fixed;
             left: 0;
