@@ -1,4 +1,6 @@
-# daniels-week2-homework-responsive-portfolio
+Week 2 - Responsive Portfolio
+
+![danielsProfile](https://user-images.githubusercontent.com/66084799/90957452-9b7c6880-e45b-11ea-864f-854ab88742d8.png)
 
 This is a bootstrap responsive portfolio that meets the following requirements:  
 
