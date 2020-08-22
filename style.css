@@ -1,0 +1,21 @@
+        body {
+            margin-bottom: 50px;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rgb(128, 128, 128);
+            color: white;
+            text-align: center;
+        }
+
+        .col-md-8 {
+            align-items: center;
+        }
+
+        .col-md-4 {
+            align-items: center;
+        }
