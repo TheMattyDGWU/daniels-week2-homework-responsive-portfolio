@@ -24,6 +24,7 @@
             background-color: rgb(128, 128, 128);
             color: white;
             text-align: center;
+            z-index: 1;
         }
 
         .col-md-8 {
