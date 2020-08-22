@@ -113,8 +113,9 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="form_need">Why are you contacting me? *</label>
-                            <select id="form_need" name="need" class="form-control" required="required" size="4"
+                            <select id="form_need" name="need" class="form-control" required="required"
                                 data-error="Please specify your need.">
+                                <option value="">-- Please choose an option --</option>
                                 <option value="Request quotation">Just say hi!</option>
                                 <option value="Request order status">Request for more info...</option>
                                 <option value="Request copy of an invoice">Offer me a job!</option>
@@ -129,7 +130,7 @@
                         <div class="form-group">
                             <label for="form_message">Message *</label>
                             <textarea id="form_message" name="message" class="form-control"
-                                placeholder="Message for me *" rows="4" required="required"
+                                placeholder="Message for me *" rows="5" required="required"
                                 data-error="Please, leave us a message."></textarea>
                             <div class="help-block with-errors"></div>
                         </div>
