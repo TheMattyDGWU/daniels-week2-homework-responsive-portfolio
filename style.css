@@ -16,8 +16,10 @@
             align-items: center;
         }
 
-        .col-md-6 {
-            align-items: center;
+        .card {
+                margin: 0 auto;
+                float: none;
+                margin-bottom: 10px;
         }
 
         .col-md-4 {
