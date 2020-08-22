@@ -10,6 +10,8 @@ Navbar must be consistent on each page.
 Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.  
 All links must work.  
 Must use semantic html.  
-Each page must have valid and correct HTML. (use a validation service)    
+Each page must have valid and correct HTML.    
 Must contain your personalized information. (bio, name, images, links to social media, etc.)    
-Must properly utilize Bootstrap components and grid system.    
+Must properly utilize Bootstrap components and grid system. 
+
+AS OF 22 AUG 2020 THE CONTACT FORM DOES NOT WORK INTENTIONALLY.
