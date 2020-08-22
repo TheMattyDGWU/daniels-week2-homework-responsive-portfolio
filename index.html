@@ -31,6 +31,14 @@
             color: white;
             text-align: center;
         }
+
+        .col-md-8 {
+            align-items: center;
+        }
+
+        .col-md-4 {
+            align-items: center;
+        }
     </style>
     <title>Matt's Profile Page</title>
 </head>
@@ -40,7 +48,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <h1>Matthew Daniels</h1>
+                <h2>Matthew Daniels</h2>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,9 +57,9 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a type="button" class="btn btn-danger">Home
+                        <button type="button" class="btn btn-danger">Home
                             <span class="sr-only">(current)</span>
-                        </a>
+                        </button>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -73,11 +81,11 @@
         <!-- AboutMe Item Rows -->
         <div class="row align-items-center">
 
-            <div class="col-md-8" align="center">
+            <div class="col-md-8">
                 <img class="img-fluid" src="img/profilephoto.jpg" alt="My Profile Picture">
             </div>
 
-            <div class="col-md-4" align="left">
+            <div class="col-md-4">
                 <h3 class="my-4">Who I Am</h3>
                 <p>After college I joined the Navy - which led to adventures around the world as both an Air Traffic
                     Controller and Aviator... with some experiences thrown in that I never would have imagined. Now that
