@@ -2,9 +2,11 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
     <!-- Bootstrap CDNs -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -14,28 +16,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <style>
-        body {
-            margin-bottom: 50px;
-        }
-
-        .footer {
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            background-color: rgb(128, 128, 128);
-            color: white;
-            text-align: center;
-        }
-
-        .carousel-item {
-            margin-bottom: 10px;
-        }
-    </style>
     <title>Matt's Profile Page</title>
 </head>
 
@@ -77,7 +58,7 @@
 
         <!-- Portfolio Items Row -->
         <div class="row align-items-center">
-            <div class="col-md-6 py-4" align="center">
+            <div class="col-md-6 py-4">
                 <!-- Card #1 -->
                 <div class="card" style="width: 20rem;">
                     <div class="card-body">
@@ -87,7 +68,7 @@
                     <img class="card-img-top" src="img/resume.png" alt="Daniels Resume">
                 </div>
             </div>
-            <div class="col-md-6 py-4" align="center">
+            <div class="col-md-6 py-4">
                 <!-- Card #2 -->
                 <div class="card" style="width: 20rem;">
                     <div class="card-body">
@@ -153,12 +134,11 @@
             </a>
         </div>
     </div>
-    </div>
 
     <!-- __________________________________ FOOTER __________________________________ -->
     <footer class="footer">
         <div class="container" style="text-align: center"> Copyright &copy;
-            <script>document.write(new Date().getFullYear())</script> Rancho Relaxo Productions</p>
+            <script>document.write(new Date().getFullYear())</script> Rancho Relaxo Productions
         </div>
     </footer>
 
